@@ -35,6 +35,8 @@ func brightness(r, g, b, a uint8, number int) (uint8, uint8, uint8, uint8) {
 	// This is really ugly but i have to check if the value 
 	// is over 255 so i can manually cap it so it doesnt
 	// loop around.
+
+	// TODO: maybe (number - (number - 255)) % 255
 	if int(r) + number > 255 {
 		r = 255
 	} else if int(r) + number < 0 {
