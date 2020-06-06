@@ -42,7 +42,7 @@ Greyscale
 Originally created as homeword to Go Programming course taught by Tero Karvinen http://terokarvinen.com/2020/go-programming-course-2020-w22/
 
 Oringally this only "randomized" colors while i kept that functionality this is much 
-more usefull now. Using the original feature can be used by providint a number with -n flag and omitting the mode.
+more usefull now. Using the original feature can be done by providing a number with -n flag and omitting the mode.
 Link to original script: https://github.com/heiskane/golang/tree/master/h4
 
 # Some sources
