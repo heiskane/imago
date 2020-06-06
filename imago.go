@@ -32,7 +32,7 @@ func decodeImg(myImage string) (image.Image, string, error) {
 
 func brightness(r, g, b, a uint8, number int) (uint8, uint8, uint8, uint8) {
 	// Converting a number to uint8 it does number % 255
-	// This is realy ugly but i have check if the value 
+	// This is really ugly but i have to check if the value 
 	// is over 255 so i can manually cap it so it doesnt
 	// loop around.
 	if int(r) + number > 255 {
