@@ -25,17 +25,17 @@ brightness (requires value between -255 and 255 given with -n flag)
 ## Exaple usage
 Add Brightness
 ```
-./stego -f image.jpg -m brightness -n 50 -o new.png
+./imago -f image.jpg -m brightness -n 50 -o new.png
 ```
 
 Inverse color
 ```
-./stego -f image.jpg -m inverse -o new.png
+./imago -f image.jpg -m inverse -o new.png
 ```
 
 Greyscale
 ```
-./stego -f image.jpg -m greyscale -o new.png
+./imago -f image.jpg -m greyscale -o new.png
 ```
 
 # Info
